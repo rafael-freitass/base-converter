@@ -2,7 +2,7 @@
 def main():
     print("Escreva o número para converter")
     num = str(input("Número: "))
-    print("Escreva a base do número ('binario: 2', 'decimal: 10', 'octal: 8' ou 'hexadecimal: 16')")
+    print("Escreva a base do número: ('binario: 2', 'decimal: 10', 'octal: 8' ou 'hexadecimal: 16')")
     base = int(input("base: "))
 
     if base in [2, 8, 10, 16]:
